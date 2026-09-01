@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 
 const WHATSAPP = "5562993040004";
 const INSTAGRAM = "https://www.instagram.com/origemrestauro";
-const FACEBOOK = "https://facebook.com/origemrestauro";
+const FACEBOOK = "https://www.facebook.com/OrigemRestauro";
 
 function NavBar() {
   const [scrolled, setScrolled] = useState(false);
@@ -336,19 +336,19 @@ function BeforeAfterCard({
 function Gallery() {
   const pairs = [
     {
-      before: "https://images.unsplash.com/photo-1536880903808-abe01fcc82e2?w=600&h=450&fit=crop&auto=format&sat=-100&bri=-20",
-      after: "https://images.unsplash.com/photo-1536880903808-abe01fcc82e2?w=600&h=450&fit=crop&auto=format",
-      label: "Retrato familiar — anos 1940",
+      before: "/src/imports/photo_4949531736983407752_y.jpg",
+      after: "/src/imports/photo_4949531736983407753_y.jpg",
+      label: "Foto em combate 2014",
     },
     {
-      before: "https://images.unsplash.com/photo-1693811924944-929d2319041d?w=600&h=450&fit=crop&auto=format&sat=-100&bri=-30",
-      after: "https://images.unsplash.com/photo-1693811924944-929d2319041d?w=600&h=450&fit=crop&auto=format",
-      label: "Crianças na praça — anos 1960",
+      before: "/src/imports/photo_4949531736983407750_y-1.jpg",
+      after: "/src/imports/photo_4949531736983407750_y__1_.jpg",
+      label: "Foto em família 2011",
     },
     {
-      before: "https://images.unsplash.com/photo-1723140934387-aef910e0ea61?w=600&h=450&fit=crop&auto=format&sat=-100&bri=-25",
-      after: "https://images.unsplash.com/photo-1723140934387-aef910e0ea61?w=600&h=450&fit=crop&auto=format",
-      label: "Reunião de família — anos 1950",
+      before: "/src/imports/photo_4949531736983407761_x.jpg",
+      after: "/src/imports/photo_4949531736983407761_x__1_.jpg",
+      label: "Foto em família de aniversário 2008",
     },
   ];
 
